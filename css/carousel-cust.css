@@ -1,0 +1,37 @@
+.carousel-indicators .active{
+	background: #000000;
+	border: 1px solid red;
+    width: 10px;
+    height: 10px;
+}
+.carousel-indicators li{
+	background: green;
+	border: 1px solid red;
+    width: 10px;
+    height: 10px;
+    margin:0;
+}
+.carousel-indicators {
+    bottom: inherit;
+}
+.carousel-control{
+	width: 40px;
+	height: 40px;
+	background-color: blue !important;
+	line-height: 40px;
+	text-align: center;
+	display: block;
+	top: 50%;
+	margin-top: -20px;
+}
+.carousel-control.left,.carousel-control.right{
+	background: none;
+}
+.carousel-control.left{
+	background: url('http://photoshop-work.ru/images/8/13.jpg') no-repeat center center;
+	background-size: 30px auto;
+}
+.carousel-control.right{
+	background: url('http://photoshop-work.ru/images/8/13.jpg') no-repeat center center;
+	background-size: 30px auto;
+}

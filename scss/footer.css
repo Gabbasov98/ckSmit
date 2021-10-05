@@ -1,0 +1,8 @@
+.fixer .footer {
+  position: relative; }
+
+@media screen and (max-width: 768px) {
+  .footer:before {
+    top: -15px; } }
+
+/*# sourceMappingURL=footer.css.map */

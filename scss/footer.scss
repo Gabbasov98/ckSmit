@@ -1,0 +1,11 @@
+.fixer .footer {
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        &:before {
+            top: -15px;
+        }
+    }
+}

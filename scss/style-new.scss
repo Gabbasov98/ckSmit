@@ -1,0 +1,73 @@
+@import 'header';
+@import 'textpage';
+@import 'cabinet';
+@import 'footer';
+@import 'popups';
+@import 'order-step';
+@import 'faq';
+@import 'auth';
+@import 'catalog-item';
+@import 'cart';
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+html,
+body {
+    min-height: 100vh;
+}
+
+.red-star {
+    color: #dd545a;
+}
+
+svg,
+path {
+    transition: all .3s;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.input-error {
+    border: 1px solid #ff404d !important;
+    background-image: url(../images/new-img/warning.png);
+    background-position: right 15px center;
+    background-repeat: no-repeat;
+    background-size: 12px auto;
+    padding-right: 30px;
+}
+
+input[type='password'].input-error {
+    background-image: none;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+    color: #000;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {}
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
